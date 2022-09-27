@@ -1,0 +1,160 @@
+body {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.calculator {
+  border: 0.1rem solid whitesmoke;
+  border-radius: 0.5rem;
+  width: 50%;
+  height: 60%;
+  background-color: #555;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.monitor {
+  width: 100%;
+  height: 20%;
+  border: 0.1rem solid lightgrey;
+  border-radius: 0.5rem;
+  display: flex;
+  background-color: #222;
+  align-items: center;
+}
+.monitorr {
+  color: white;
+  font-size: 3em;
+  padding: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+button {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  color: whitesmoke;
+  border-radius: 1rem;
+  border-color: whitesmoke;
+  width: 100%;
+}
+.operators {
+  display: grid;
+  margin-top: 1rem;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-column-gap: 5%;
+  justify-content: center;
+}
+.plus {
+  color: forestgreen;
+}
+.minus {
+  color: forestgreen;
+}
+.multiply {
+  color: forestgreen;
+}
+.divide {
+  color: forestgreen;
+}
+.numeq {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 0;
+  width: 100%;
+}
+.numbers {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 27% 27% 27%;
+  margin: 0;
+  margin-top: 1rem;
+  grid-column-gap: 6%;
+  grid-row-gap: 5%;
+  margin-left: 1rem;
+}
+.equal {
+  width: 25%;
+  margin: 0;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  height: 5.9em;
+  background-color: forestgreen;
+}
+
+/*.calculator {
+  border: 0.1rem solid #555;
+  border-radius: 0.5rem;
+  width: 50%;
+  height: 70%;
+  background-color: #555;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-areas:
+  'monitor monitor monitor monitor'
+    "7 8 9 ="
+    "4 5 6 ="
+    "1 2 3 ="
+    "0 . c =";
+  grid-gap: 2%;
+}
+.monitor {
+  grid-area: "monitor";
+  width: 100%;
+}
+.dot{
+    grid-area: '.';
+}
+.plus {
+  grid-area: "+";
+}
+.minus {
+  grid-area: "-";
+}
+.multiply {
+  grid-area: "*";
+}
+.divide {
+  grid-area: "/";
+}
+.equal {
+  grid-area: "=";
+}
+.c {
+  grid-area: "c";
+}
+.zero {
+  grid-area: "0";
+}
+.one {
+  grid-area: "1";
+}
+.two {
+  grid-area: "2";
+}
+.three {
+  grid-area: "3";
+}
+.four {
+  grid-area: "4";
+}
+.five {
+  grid-area: "5";
+}
+.six {
+  grid-area: "6";
+}
+.seven {
+  grid-area: "7";
+}
+.eight {
+  grid-area: "8";
+}
+.nine {
+  grid-area: "9";
+}*/
